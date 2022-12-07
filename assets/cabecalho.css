@@ -1,0 +1,10 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background: #000000;
+}
+
+.logo{
+    width: 100px;
+}
