@@ -6,6 +6,7 @@
     <title>Comunidade Metaverso</title>
     <link rel="stylesheet" href="assets/reset.css">
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 </head>
 <body>
     <header class="menu">
@@ -27,9 +28,27 @@
         <p class="banner__texto">A mais avançada tecnologia de imersão.</p><br>
         <a href="#" class="banner__button">Conheça mais</a>
     </section>
-    <section>
-        
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Modelos VR</h2>
+            <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-pagination"></div>
+            
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="assets/img/quest2.png" alt=" Quest 2"></div>
+            <div class="swiper-slide"><img src="assets/img/htcvive.png" alt=" HTC Vive"></div>
+            <div class="swiper-slide"><img src="assets/img/psvr.png" alt=" PS VR"></div>
+            <div class="swiper-slide"><img src="assets/img/valveindex.png" alt="Valve Index"></div>
+            <div class="swiper-slide"><img src="assets/img/hpreverb.png" alt="HP Reverb G2"></div>
+             ...
+             <!-- END SLIDES -->
+            </div>
+        </div>
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="assets/js/swiper.js"></script>
     <script src="assets/js/index.js"></script>
 </body>
 </html>
