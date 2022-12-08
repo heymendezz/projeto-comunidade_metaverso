@@ -16,3 +16,10 @@
     position: initial;
     margin: .5em 0;
 }
+
+@media screen and (min-width: 1024px){
+    .carrossel__titulo{
+        font-size: 40px;
+        padding: 25px;
+    }
+}

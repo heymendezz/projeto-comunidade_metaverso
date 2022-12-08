@@ -20,18 +20,6 @@
     
 }
 
-.menu__login i::before {
-    content: ;
-    background-image: url("img/user-icon.png");
-    background-size: 30px 30px;
-    display: inline-block;
-    width: 30px; 
-    height: 30px;
-    background-repeat: no-repeat;
-    content:"";
-    
-}
-
 .menu__logo {
     width: 130px;
 }
@@ -39,7 +27,7 @@
 .menu-lateral {
     display: flex;
     flex-direction: column;
-    background-color: #FF6600;
+    background-color: #8364c1;
     width: 75vw;
     height: 100vh;
     position: absolute;
@@ -77,3 +65,30 @@
     font-size: 24px;
     position: absolute;
 }
+
+.menu__titulo{
+    display: none;
+}
+
+@media screen and (min-width: 1024px){
+    .menu__logo{
+        width: 300px;
+    }
+
+    .menu__titulo{
+        display: unset;
+        font-size: 40px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .menu__button i::before {
+        display: none;
+    }
+    
+    .menu{
+        display: flex;
+        justify-content: center;
+    }
+}
+    
