@@ -1,17 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comunidade Metaverso</title>
     <link rel="stylesheet" href="assets/reset.css">
-    <link rel="stylesheet" href="assets/styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <header class="cabecalho">
-        <a href="#"><img src="img/menu-icon.png" alt="Menu"></a>
-        <img src="img/logo.png" alt="Logo da Comunidade Metaverso" class="logo">
-        <a href="#"><img src="img/user-icon.png" alt="Login"></a>
+    <header class="menu">
+        <button class="menu__button" aria-label="Menu"><i></i></button>
+        <img src="assets/img/logo.png" alt="Logo Comunidade Metaverso" class="menu__logo">
+        <button class="menu__login" aria-label="Login"><i></i></button>
     </header>
-    <p>a</p>
+    <nav class="menu-lateral">
+        <a href="#" class="menu-lateral__link menu-lateral__link--inicio menu-lateral__link--ativo">Início</a>
+        <a href="#" class="menu-lateral__link">Dispositivos</a>
+        <a href="#" class="menu-lateral__link">Softwares</a>
+        <a href="#" class="menu-lateral__link">Games</a>
+        <a href="#" class="menu-lateral__link">Noticias</a>
+        <a href="#" class="menu-lateral__link">Comunidade</a>
+        <a href="#" class="menu-lateral__link">Contato</a>
+    </nav>
+    <script src="assets/js/index.js"></script>
 </body>
 </html>

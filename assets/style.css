@@ -1,0 +1,8 @@
+@import url("cabecalho.css");
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Roboto:wght@300&display=swap');
+
+body {
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
