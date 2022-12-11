@@ -9,3 +9,10 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
 }
+
+footer {
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 15px;
+}
